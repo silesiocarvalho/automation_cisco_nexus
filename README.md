@@ -1,2 +1,2 @@
 # automation_cisco_nexus
-Network Automatio for Cisco Nexus
+Network Automation for Cisco Nexus
