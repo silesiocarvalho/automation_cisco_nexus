@@ -32,6 +32,11 @@ source ansible/bin/activate
 # install ansible
 python3 -m pip install ansible
 
+# In order to use the paramiko connection plugin or modules that require paramiko, install the required module
+
+python3 -m pip install paramiko
+python3 -m pip install ansible-pylibssh
+
 # test if ansible is running ok
 ansible localhost -m ping
 ```
